@@ -1,0 +1,10 @@
+{
+  "note": "Sample data for the demo, not real spend.",
+  "unit": "USD",
+  "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+  "series": [
+    { "name": "Claude Code", "color": "#d97757", "values": [4.2, 6.8, 5.1, 9.4, 7.7, 2.1, 1.4] },
+    { "name": "Codex", "color": "#10a37f", "values": [3.1, 2.4, 6.2, 5.5, 8.1, 1.2, 0.9] },
+    { "name": "Review bot", "color": "#6b8afd", "values": [1.2, 1.5, 1.1, 2.6, 2.2, 0.4, 0.3] }
+  ]
+}

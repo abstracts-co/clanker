@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" font-family="system-ui, sans-serif">
+  <rect width="640" height="400" rx="18" fill="#171614"/>
+  <rect width="640" height="52" rx="18" fill="#22201d"/>
+  <circle cx="30" cy="26" r="6" fill="#e5534b"/><circle cx="50" cy="26" r="6" fill="#e0a33a"/><circle cx="70" cy="26" r="6" fill="#3fb27f"/>
+  <text x="96" y="32" fill="#b9b2a8" font-size="16">Agent diagnosis</text>
+  <g font-size="19" font-family="ui-monospace, Menlo, monospace" fill="#e9e4dc">
+    <text x="48" y="112" fill="#e0a33a" font-weight="700">!</text><text x="80" y="112">cart.spec.ts</text>
+    <text x="80" y="152" fill="#9a948b">waits 200 ms for a request</text>
+    <text x="80" y="192" fill="#9a948b">that takes up to 450 ms in CI</text>
+    <text x="48" y="252" fill="#6b8afd" font-weight="700">→</text><text x="80" y="252">await the response instead</text>
+  </g>
+  <text x="48" y="366" fill="#b9b2a8" font-size="16">Root cause: a fixed sleep</text>
+</svg>
