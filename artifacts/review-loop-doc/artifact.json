@@ -1,0 +1,6 @@
+{
+  "title": "Review loop playbook",
+  "kind": "document",
+  "entry": "playbook.md",
+  "description": "dovetail's Claude Code + Codex review loop, written up so you can run it yourself."
+}
