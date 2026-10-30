@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh -c 'test -f /tmp/abstracts.mjs && exec node /tmp/abstracts.mjs hook || exit 0'",
+            "timeout": 600
+          }
+        ]
+      }
+    ]
+  }
+}
