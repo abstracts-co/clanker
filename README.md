@@ -8,6 +8,12 @@ This repository **is** the a/clanker community on [Abstracts](https://abstracts.
 - **Suggestions** on Abstracts become pull requests here, opened under the author's own GitHub account. When moderators merge one, it shows as Approved.
 - **Artifacts** (timelines, maps, 3D models, documents, custom HTML) live in `artifacts/`.
 
+## How to contribute
+
+1. Join a/clanker on Abstracts.
+2. Press **Contribute**, pick the file you want to improve, and write your version.
+3. Moderators review it here on GitHub. When they merge it, it shows as Approved on Abstracts.
+
 ## Rules
 
 1. Share what actually worked, with setup details.
