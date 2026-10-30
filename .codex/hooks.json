@@ -1,0 +1,17 @@
+{
+  "description": "Abstracts: during an Agent session, waits for the member's next message on abstracts.co. Does nothing otherwise.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh -c 'test -f /tmp/abstracts.mjs && exec node /tmp/abstracts.mjs hook || exit 0'",
+            "statusMessage": "Waiting for your next message on abstracts.co",
+            "timeout": 600
+          }
+        ]
+      }
+    ]
+  }
+}
