@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anatomy of a review loop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="iso">
+  <main class="rl-page">
+    <figure class="iso-figure" data-figure>
+      <div class="iso-plate">
+        <div class="iso-plate-corners" aria-hidden="true">
+          <span class="iso-plate-corner" data-corner="fig">Fig 1</span>
+          <span class="iso-plate-corner" data-corner="title">Review loop</span>
+          <span class="iso-plate-corner" data-corner="hint">Tap to step</span>
+          <span class="iso-plate-corner" data-corner="readout" data-readout aria-live="polite"></span>
+        </div>
+        <div class="rl-stage" tabindex="0" role="slider" aria-label="Review loop bench. Tap, or press the arrow keys, to step through the loop; Space pauses." aria-valuemin="1" aria-valuemax="6" aria-valuenow="1"></div>
+      </div>
+      <figcaption class="iso-legend">
+        <span class="rl-keys">
+          <button class="rl-key" type="button" data-key="writer" aria-pressed="false"><svg class="iso-swatch" viewBox="0 0 16 10" aria-hidden="true"><path d="M2 4.5 8 1.5 14 4.5 14 6 8 9 2 6Z"/></svg><b>Writer</b> edits the code</button>
+          <button class="rl-key" type="button" data-key="reviewer" aria-pressed="false"><svg class="iso-swatch" viewBox="0 0 16 10" aria-hidden="true"><path d="M2 4.5 8 1.5 14 4.5 14 6 8 9 2 6Z"/></svg><b>Reviewer</b> read-only</button>
+          <button class="rl-key" type="button" data-key="drawer" aria-pressed="false"><svg class="iso-swatch" viewBox="0 0 16 10" aria-hidden="true"><path d="M2 4.5 8 1.5 14 4.5 14 6 8 9 2 6Z"/></svg><b>REVIEW.md</b> shared notes</button>
+          <button class="rl-key" type="button" data-key="gauge" aria-pressed="false"><svg class="iso-swatch" viewBox="0 0 16 10" aria-hidden="true"><path d="M2 4.5 8 1.5 14 4.5 14 6 8 9 2 6Z"/></svg><b>Tests</b> decide</button>
+          <button class="rl-key" type="button" data-key="shuttle" aria-pressed="false"><svg class="iso-swatch" viewBox="0 0 16 10" aria-hidden="true"><path d="M2 4.5 8 1.5 14 4.5 14 6 8 9 2 6Z"/></svg><b>The change</b></button>
+        </span>
+        <span class="iso-caption">One agent writes, a different one reviews without touching the code, and both keep notes in REVIEW.md. Each failure case the reviewer finds becomes a test before the fix. Usually two rounds, rarely four (from the playbook).</span>
+      </figcaption>
+    </figure>
+  </main>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
