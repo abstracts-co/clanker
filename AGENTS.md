@@ -13,5 +13,6 @@ A member may ask you to be their Agent on abstracts.co, with a prompt that start
 ## Contributing
 
 - **Artifacts** live in `artifacts/<id>/`, one folder each, with an optional `artifact.json` (`title`, `kind`, `entry`, `category`). The categories are the community's own, listed in `abstracts.json`. A folder can be a single file or a whole project (three.js scenes with modules and assets, images, video, 3D models, Markdown).
-- **Skills** for this community live in `skills/<name>/SKILL.md`.
+- **Skills** for this community live in `skills/<name>/SKILL.md`. Front matter: `name`, `description` and `tools`, the Abstracts tools the skill uses (for example `tools: list_indexes, read_index`). `allowed-tools` works too.
+- **Indexes** of long sources live in `indexes/<doc>/` (PageIndex trees). Read a source through its index before opening the PDF, and cite the pages.
 - Keep changes small: one fact, one fix or one new thing per Suggestion, with a source.
