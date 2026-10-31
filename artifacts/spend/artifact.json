@@ -2,5 +2,6 @@
   "title": "Agent spend dashboard",
   "kind": "web",
   "entry": "index.html",
-  "description": "A week of agent spend by tool, as 3D bars. Sample data; drag to look around."
+  "description": "A week of agent spend by tool, as 3D bars. Sample data; drag to look around.",
+  "category": "Dashboards"
 }
