@@ -1,0 +1,163 @@
+:root {
+  --sand-0: #ffffff;
+  --sand-50: #faf8f4;
+  --sand-100: #f5f2ec;
+  --sand-150: #efeae1;
+  --sand-200: #e9e4da;
+  --sand-300: #d6cfc2;
+  --sand-500: #8a847a;
+  --sand-600: #6f695f;
+  --sand-700: #4a463f;
+  --sand-800: #2e2b27;
+  --sand-900: #1c1b19;
+
+  --amber-50: #fdf5eb;
+  --amber-100: #fbebd9;
+  --amber-300: #edc9a2;
+  --amber-500: #d97a1e;
+  --amber-600: #b05e16;
+  --amber-800: #8f4c0e;
+
+  --green-50: #e5f1e7;
+  --green-700: #2d6a3e;
+  --red-700: #a23b2a;
+
+  --color-bg: var(--sand-50);
+  --color-surface: var(--sand-0);
+  --color-surface-sunken: var(--sand-100);
+  --color-hover: #f3efe8;
+  --color-selected: var(--sand-150);
+  --color-overlay: rgb(28 27 25 / 0.42);
+  --color-glass: rgb(250 248 244 / 0.84);
+
+  --color-text: var(--sand-900);
+  --color-text-secondary: var(--sand-700);
+  --color-text-tertiary: var(--sand-600);
+  --color-text-placeholder: var(--sand-500);
+  --color-text-inverse: var(--sand-0);
+
+  --color-border: var(--sand-200);
+  --color-border-strong: var(--sand-300);
+
+  --color-accent-fill: var(--amber-500);
+  --color-accent-strong: var(--amber-600);
+  --color-accent-text: var(--amber-800);
+  --color-accent-subtle: var(--amber-100);
+  --color-accent-wash: var(--amber-50);
+  --color-accent-border: var(--amber-300);
+
+  --color-success: var(--green-700);
+  --color-success-subtle: var(--green-50);
+  --color-danger: var(--red-700);
+
+  --color-ink: var(--sand-900);
+  --color-ink-hover: var(--sand-800);
+  --color-on-ink: var(--sand-0);
+  --color-row-hover: #f7f4ee;
+  --color-stage-light: #fbf9f5;
+  --color-stage-dark: #ebe5d9;
+  --color-focus: var(--amber-500);
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.8125rem;
+  --text-base: 0.9375rem;
+  --text-md: 1rem;
+  --text-lg: 1.0625rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+
+  --leading-tight: 1.25;
+  --leading-snug: 1.35;
+  --leading-normal: 1.5;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 650;
+  --weight-heavy: 700;
+
+  --tracking-tight: -0.015em;
+  --tracking-tighter: -0.02em;
+  --tracking-caps: 0.04em;
+
+  --space-0-5: 2px;
+  --space-1: 4px;
+  --space-1-5: 6px;
+  --space-2: 8px;
+  --space-2-5: 10px;
+  --space-3: 12px;
+  --space-3-5: 14px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 999px;
+  --shadow-md: 0 6px 16px -4px rgb(28 27 25 / 0.12), 0 2px 4px rgb(28 27 25 / 0.05);
+  --shadow-lg: 0 24px 48px -12px rgb(28 27 25 / 0.22), 0 4px 10px rgb(28 27 25 / 0.06);
+
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+  --duration-fast: 150ms;
+  --duration-base: 200ms;
+  --duration-slow: 300ms;
+  --press-scale: 0.97;
+  --press-scale-icon: 0.94;
+  --press-scale-card: 0.98;
+  --duration-press: 160ms;
+
+  --sidebar-width: 248px;
+  --sidebar-width-collapsed: 76px;
+  --feed-width: 620px;
+  --dialog-width: 600px;
+  --tap-target: 44px;
+
+  --z-sticky: 10;
+  --z-nav: 20;
+  --z-toast: 200;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0e0e0d;
+    --color-surface: #161614;
+    --color-surface-sunken: #121211;
+    --color-hover: #1b1a18;
+    --color-selected: #22211e;
+    --color-overlay: rgb(0 0 0 / 0.6);
+    --color-glass: rgb(14 14 13 / 0.82);
+    --color-text: #eeebe4;
+    --color-text-secondary: #bdb8ae;
+    --color-text-tertiary: #8a857b;
+    --color-text-placeholder: #625e57;
+    --color-text-inverse: #0e0e0d;
+    --color-border: #262521;
+    --color-border-strong: #383630;
+    --color-accent-fill: #f0a04b;
+    --color-accent-strong: #f0a04b;
+    --color-accent-text: #f6c38a;
+    --color-accent-subtle: rgb(240 160 75 / 0.13);
+    --color-accent-wash: rgb(240 160 75 / 0.06);
+    --color-accent-border: rgb(240 160 75 / 0.38);
+    --color-success: #86d19a;
+    --color-success-subtle: rgb(134 209 154 / 0.12);
+    --color-danger: #f08f7d;
+    --color-ink: #eeebe4;
+    --color-ink-hover: #d9d5cc;
+    --color-on-ink: #0e0e0d;
+    --color-row-hover: #121211;
+    --color-stage-light: #24231f;
+    --color-stage-dark: #121210;
+    --shadow-lg: 0 24px 48px -12px rgb(0 0 0 / 0.6), 0 0 0 1px #2a2925;
+    --shadow-md: 0 6px 16px -4px rgb(0 0 0 / 0.5), 0 0 0 1px #2a2925;
+  }
+}
