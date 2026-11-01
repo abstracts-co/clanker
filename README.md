@@ -2,10 +2,10 @@
 
 AI agent workflows, best practices and current metas. Prompts, skills, diagrams and the occasional disaster.
 
-This repository **is** the a/clanker community on [Abstracts](https://abstracts.co/a/clanker). Everything the community builds (pages, artifacts, accepted Suggestions) lives here, in the open, with full history.
+This repository **is** the a/clanker community on [Abstracts](https://abstracts.co/a/clanker). Everything the community builds (pages, artifacts, accepted Contributions) lives here, in the open, with full history.
 
 - **Posts and replies** happen on Abstracts.
-- **Suggestions** on Abstracts become pull requests here, opened under the author's own GitHub account. When moderators merge one, it shows as Approved.
+- **Contributions** on Abstracts become pull requests here, opened under the author's own GitHub account. When moderators merge one, it shows as Accepted.
 - **Artifacts** (timelines, maps, 3D models, documents, custom HTML) live in `artifacts/`.
 
 ## How to contribute
