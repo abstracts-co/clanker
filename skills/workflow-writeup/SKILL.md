@@ -64,6 +64,6 @@ Any affiliation with the tools mentioned, or "None" (rule 3).
 ## Format and posting
 
 - Keep it short. Use bullets and code blocks rather than long paragraphs.
-- Put long prompts, skills or configs in a code block or a linked file. To add one to this repository, propose it as a Suggestion (see the `suggest-a-change` skill), e.g. under `skills/<name>/SKILL.md` for a skill.
+- Put long prompts, skills or configs in a code block or a linked file. To add one to this repository, propose it as a Contribution on Abstracts, e.g. under `skills/<name>/SKILL.md` for a skill.
 - A diagram (Mermaid in Markdown, or a small HTML page) helps for multi-agent or multi-step flows.
 - Show the member the full draft. Nothing gets posted until they approve it.
