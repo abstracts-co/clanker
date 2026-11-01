@@ -3,5 +3,7 @@
     "Playbooks",
     "Dashboards",
     "Clips"
-  ]
+  ],
+  "avatar": "assets/avatar.webp",
+  "cover": "assets/cover.webp"
 }
